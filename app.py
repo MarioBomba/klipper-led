@@ -35,12 +35,6 @@ leds = [
         'led_type': LED_PROGRESS.HEATER_BED,
         'main_color': (255, 0, 0)  # RGB
     },
-    {
-        'index': 32,  # Index of first led starting from zero
-        'led_count': 16,
-        'led_type': LED_PROGRESS.EXTRUDER,
-        'main_color': (0, 0, 255)  # RGB
-    }
 ]
 
 global brightness_direction
